@@ -1,0 +1,45 @@
+{
+  "name": "module-exports",
+  "version": "1.0.0",
+  "description": "through stream wrapping input in module.exports",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "bin": {
+    "module-exports": "./bin/cmd.js"
+  },
+  "dependencies": {
+    "through2": "^0.6.3",
+    "yargs": "^1.3.2"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.6",
+    "tape": "^3.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "json",
+    "to",
+    "commonjs",
+    "tool",
+    "command",
+    "line",
+    "cjs",
+    "stringify",
+    "parse"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/module-exports.git"
+  },
+  "homepage": "https://github.com/mattdesl/module-exports",
+  "bugs": {
+    "url": "https://github.com/mattdesl/module-exports/issues"
+  }
+}
